@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}  
+ body{
+    font-family: 'Segoe UI',
+     sans-serif;
+     background-color: #0b0f1a;
+     color: #ffffff;
+    }    
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("../img.src/MLBB-Rank-System-2023.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.article{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 75px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.article h2{
+    font-size: 50px;
+    color: #778899;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    color: #fff;
+    padding: 12px 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.article .btn:hover{
+    background-color: #778899;
+    transition: 0.5s ease;
+}
+section{
+    padding: 60px 20px;
+    margin: auto;
+}
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 40px;
+    letter-spacing: 2.0px;
+    margin-bottom: 35px;
+  
+}
+.about p{
+    font-size: 30px;
+}
+.Hero{
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #1c1f2a;
+   
+}
+.Hero h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.Title{
+    padding:3rem;
+    font-weight: 700;
+
+}
+.Title h1{
+    letter-spacing: 1.3;
+    margin-top: -70px;
+    font-size: 40px;
+    font-style: Roboto;
+    
+}
+.Title1 h1 {
+    letter-spacing: 1.3;
+    margin-top: -10px;
+    font-size: 40px;
+    font-style: Roboto;
+}
+ .featured-hero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+
+  
+}
+.hero-card{
+    background-color: #1c1f2a;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    margin-top: -70px;
+    
+}
+.hero-card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+    flex-direction: column;
+}
+.hero-card :hover{
+    transform: scale(1.05);
+}
+.hero-card h2{
+    margin: 0.8rem 0 0.4rem;
+    font-size: 1.3rem;
+}
+.hero-card p{
+    font-size: 0.9rem;
+    color: #ccc;
+    letter-spacing: 1.2px;
+
+ }
+   .main-header{
+    text-align: center;
+    background-image: none;
+    padding: 3rem 1rem;   
+ }
+ .main-header h1{
+    font-size: 35px;
+    margin-top: 0.5rem;
+    color: #ccc;
+
+ }
+
+ 
+
+@media screen and (max-width: 768px) {
+    .hero-card{
+        display: block;
+        margin: 0 20px;
+    }
+    
+}
